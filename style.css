@@ -1,8 +1,27 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: copperplate, fantasy;
  }
 
- .title{
-    color: purple;
+ .akmt_title{
     font-size: 2em;
+    font-family: copperplate, fantasy; 
  }
+
+.akmt_back_one{
+   background-color: #9c91bf
+}
+.navbar {
+   display: block;
+   justify-content: center;
+   background-color: #afa4d5;
+   padding: 10px 0;
+}
+nav a {
+   color: #132CAF;
+   text-decoration: none;
+   margin: 0 10px;
+   font-size: 1em;
+   padding: 10px 20px;
+   border-radius: 10px;
+   transition: padding 0.5s;
+}
